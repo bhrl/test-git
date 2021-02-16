@@ -1,8 +1,5 @@
 # test-git
 
-
-yo oke lah 
-
 …or create a new repository on the command line
 echo "# test-git" >> README.md
 1. git init
@@ -19,3 +16,19 @@ echo "# test-git" >> README.md
 
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+A. Membuat Brach dengan git client (bash)
+	
+	-  git checkout -b new_branch
+
+B. saya coba menambah file  (dibawah ini command  linux  buat file baru namanya tes 
+
+	- echo “isi dari file test ” > test_new_file 
+	- cat test_new_file ( ini cek isi file test ) 
+
+C. Melihat perubahan dari repository kita ( client ) 
+	
+	- git status 
+
+
